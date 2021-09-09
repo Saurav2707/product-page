@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width: 100%;
+  height: 10vh;
+  padding: 5px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.left {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 30px;
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
 }
+.right {
+  width: 50%;
 
-.App-link {
-  color: #61dafb;
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search {
+  width: 60%;
+}
+.input {
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 35px;
+  margin: 10px;
+  color: aqua;
+  text-align: center;
+  font-size: medium;
+}
+.other {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+}
+.box {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.images {
+  width: 60%;
+}
+img {
+  width: 50%;
+}
+.description {
+  width: 40%;
+  margin-top: 30px;
+  padding-left: 25px;
+}
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  color: grey;
+}
+.rating {
+  display: flex;
+  padding: 5px;
+  border: 1px solid rgb(226, 215, 215);
+  width: 120px;
+  margin: 10px;
+}
+.star {
+  border-right: 2px solid grey;
+  margin-right: 5px;
+  padding-right: 5px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+.price {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 10px;
+}
+.dp {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Calibri;
+}
+.op {
+  font-size: 20px;
+  color: grey;
+  font-weight: 200;
+}
+.discount {
+  font-size: 24px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color: rgb(240, 132, 9);
+}
+.container {
+  border-bottom: 1px solid rgb(219, 211, 211);
+}
+.tax {
+  font-weight: bold;
+  color: rgba(9, 189, 150, 0.795);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bag {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: pink;
+  text-align: center;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 30px;
 }
